@@ -3,21 +3,25 @@
 /* Set custom variables here */
 
 :root {
-  --success-color: #2e473a;
+  --primary-color: #2e483a ;
 }
 
-.btn-success{
-  background-color: var(--success-color) !important;
-  color: white;
-  border-color: var(--success-color) !important;
+.btn-primary{
+  background-color: var(--primary-color) !important;
+  color: #f6f3ed ;
+  border-color: var(--primary-color) !important;
+}
+
+.text-light {
+  color: #f6f3ed ;
 }
 
 .accordion-button {
   background-color: #f6f3ed !important;
 }
 
-.bg-success {
-  background-color: #2e473a !important;
+.bg-primary {
+  background-color: #2e483a  !important;
 }
 
 .bg-info {
