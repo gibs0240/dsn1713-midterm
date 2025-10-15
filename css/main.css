@@ -2,9 +2,31 @@
 
 /* Set custom variables here */
 
+:root {
+  --success-color: #2e473a;
+}
 
+.btn-success{
+  background-color: var(--success-color) !important;
+  color: white;
+  border-color: var(--success-color) !important;
+}
 
+.accordion-button {
+  background-color: #f6f3ed !important;
+}
 
+.bg-success {
+  background-color: #2e473a !important;
+}
+
+.bg-info {
+  background-color: #f6f3ed !important;
+}
+
+.text-secondary-emphasis {
+  color: #a1aca6 !important;
+}
 
 .navbar-brand {
   color: #F6F3ED;
